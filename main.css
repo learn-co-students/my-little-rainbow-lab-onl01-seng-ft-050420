@@ -1,6 +1,29 @@
+#red { /* this selects any elements with the red id */
+  border-top-color: #f00;
+}
+#orange { /* this selects any elements with the orange id */
+  border-top-color: #FF950A;
+}
+#yellow { /* this selects any elements with the yellow id */
+  border-top-color: #FFF833;
+}
+#green { /* this selects any elements with the green id */
+  border-top-color: #54FF29;
+}
+#blue { /* this selects any elements with the blue id */
+  border-top-color: #4589FF;
+}
+#indigo { /* this selects any elements with the indigo id */
+  border-top-color: #5D22D4;
+}
+#violet { /* this selects any elements with the violet id */
+  border-top-color: #8428D4;
+}
+
 div {
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
+                            
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
   min-height: 25em; /* of the divs oblong*/
